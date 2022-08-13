@@ -191,11 +191,12 @@ hr.new5{
     
 #contenido{
     margin: 0%;
+    width: 100%;
 }
 
 #formulario{
     width: 100%;
-    margin: 0%;
+    margin-left: 0%;
 }
 
 #piedepagina{
@@ -207,9 +208,10 @@ margin: 0%;
     padding-top: 10px;
 }
 .alinear{
-    block-size: 0%;
+    content: '\A'; white-space: pre;
 }
 #name{
     block-size: 8%;
 }
+
 }
