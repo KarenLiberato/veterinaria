@@ -141,7 +141,7 @@ hr.new5{
 
 
 #piedepagina{
-    margin: 0.1em auto;
+    margin:0.1em auto;
     padding-top: 10px;
     background-color: rgb(168, 238, 235);
     border-radius: 0 0 10px 10px;
@@ -150,5 +150,66 @@ hr.new5{
 
 #piedepagina p{
     color: rgb(14, 15, 15);
-    text-align:ceter;
+    text-align: center;
+}
+
+@media only screen and (max-width:600px){
+
+    #contenedorGeneral{
+    width: 100%;
+    }
+    #imgCatdog{
+    width: 80%;
+    }
+
+    h1{
+        font-family: 'Kanit', Cooper Black; 
+        font-size: 2.2em;
+        margin: 0;
+        text-align: center; 
+    }
+    
+    h2{
+        font-family: 'Kanit', Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        margin: 0;
+        text-align: center;
+    }
+    
+    h3{
+        font-family: 'Kanit', Cooper Black;
+        text-indent: 3.5em;
+        font-size: 2.2em;
+    }
+    .vl {
+        height: 0px;
+    }
+    #imgFoto{
+        width: 40%;
+        height: 60%;
+    }
+    
+#contenido{
+    margin: 0%;
+}
+
+#formulario{
+    width: 100%;
+    margin: 0%;
+}
+
+#piedepagina{
+margin: 0%;
+}
+
+.row{ 
+    margin: 0%;
+    padding-top: 10px;
+}
+.alinear{
+    block-size: 0%;
+}
+#name{
+    block-size: 8%;
+}
 }
